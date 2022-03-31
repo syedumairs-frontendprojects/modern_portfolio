@@ -1,23 +1,21 @@
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
-
+function scrollHeader() {
+  const nav = document.getElementById("header");
+  // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
+  if (this.scrollY >= 200) nav.classList.add("scroll-header");
+  else nav.classList.remove("scroll-header");
+}
+window.addEventListener("scroll", scrollHeader);
 /*=============== SERVICES MODAL ===============*/
-
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
-
-/* Link active work */ 
-
+/* Link active work */
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
-
-/*=============== LIGHT DARK THEME ===============*/ 
-
+/*=============== LIGHT DARK THEME ===============*/
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-
