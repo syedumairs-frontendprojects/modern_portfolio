@@ -53,6 +53,26 @@ linkWork.forEach((l) => l.addEventListener("click", activeWork));
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
+let swiperTestimonial = new Swiper(".testimonail__container", {
+  spaceBetween: 24,
+  loop: true,
+  grabCursor: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 48,
+    },
+  },
+});
+
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 /*=============== LIGHT DARK THEME ===============*/
