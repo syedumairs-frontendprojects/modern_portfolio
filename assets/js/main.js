@@ -67,7 +67,7 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
       slidesPerView: 2,
     },
     768: {
-      slidesPerView: 4,
+      slidesPerView: 2,
       spaceBetween: 48,
     },
   },
